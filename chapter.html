@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<header class="topHeader">
+  <h1 id="chapterTitle"></h1>
+</header>
+
+<!-- STICKY CONTROLS -->
+<div class="controlsBar">
+  <button id="btnRead">Read Aloud</button>
+  <button id="btnStop">Stop</button>
+  <button id="btnRecord">Record</button>
+  <button id="btnPlay">Play</button>
+  <button id="btnClear">Clear</button>
+  <button id="btnDownload">Download</button>
+</div>
+
+<!-- ONLY THIS AREA IS READ ALOUD -->
+<main id="readArea">
+
+  <section id="chapterText"></section>
+
+  <section id="glossary"></section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
