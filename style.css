@@ -1,1 +1,81 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#FFFDF7;
+}
 
+.topHeader{
+  background:#5a6cff;
+  color:white;
+  padding:12px;
+  text-align:center;
+}
+
+.home{
+  padding:20px;
+}
+
+.chapterCard{
+  display:block;
+  background:white;
+  padding:16px;
+  margin-top:12px;
+  border-radius:12px;
+  text-decoration:none;
+  color:black;
+  border:1px solid rgba(0,0,0,0.1);
+}
+
+.controlsBar{
+  position:sticky;
+  top:0;
+  background:#FFFDF7;
+  padding:10px;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  border-bottom:1px solid rgba(0,0,0,0.1);
+  z-index:10;
+}
+
+.controlsBar button{
+  padding:8px 12px;
+  border:none;
+  border-radius:8px;
+  background:#5a6cff;
+  color:white;
+}
+
+#readArea{
+  padding:20px;
+  max-width:800px;
+  margin:auto;
+}
+
+.objectives li{
+  list-style:none;
+  padding-left:22px;
+  margin-bottom:8px;
+  position:relative;
+}
+
+.objectives li::before{
+  content:"✓";
+  position:absolute;
+  left:0;
+}
+
+.glossCard{
+  background:white;
+  border-radius:12px;
+  padding:12px;
+  margin:14px 0;
+  border:1px solid rgba(0,0,0,0.1);
+}
+
+textarea{
+  width:100%;
+  margin-top:8px;
+  padding:8px;
+  border-radius:8px;
+}
